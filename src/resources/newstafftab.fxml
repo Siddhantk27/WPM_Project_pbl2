@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StafftabController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="174.0" style="-fx-background-color: #FF9179;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField prefHeight="59.0" prefWidth="174.0" style="-fx-background-color: #FF9179;" text="STAFF DATABASE">
+               <font>
+                  <Font name="Bookman Old Style" size="17.0" />
+               </font>
+            </TextField>
+            <Line endX="60.96498107910156" endY="-12.733756065368652" startX="-112.72793579101562" startY="-12.733986854553223" stroke="WHITE" />
+            <Button fx:id="addemp" mnemonicParsing="false" onAction="#go_to_addemp" prefHeight="74.0" prefWidth="198.0" style="-fx-background-color: #FA8072;" text="Add Employee">
+               <font>
+                  <Font name="Rockwell" size="17.0" />
+               </font>
+            </Button>
+            <Line endX="60.96498107910156" endY="-12.733756065368652" startX="-112.72793579101562" startY="-12.733986854553223" stroke="WHITE" />
+            <Button fx:id="delemp" mnemonicParsing="false" onAction="#go_to_delemp" prefHeight="74.0" prefWidth="198.0" style="-fx-background-color: #FA8072;" text="Delete Employee">
+               <font>
+                  <Font name="Rockwell" size="17.0" />
+               </font>
+            </Button>
+            <Line endX="60.96498107910156" endY="-12.733756065368652" startX="-112.72793579101562" startY="-12.733986854553223" stroke="WHITE" />
+            <Button fx:id="viewemp" mnemonicParsing="false" onAction="#go_to_showdata" prefHeight="74.0" prefWidth="198.0" style="-fx-background-color: #FA8072;" text="View Employees">
+               <font>
+                  <Font name="Rockwell" size="17.0" />
+               </font>
+            </Button>
+            <Line endX="60.96498107910156" endY="-12.733756065368652" startX="-112.72793579101562" startY="-12.733986854553223" stroke="WHITE" />
+            <Button fx:id="dashboard" mnemonicParsing="false" onAction="#go_to_dashboard" prefHeight="74.0" prefWidth="198.0" style="-fx-background-color: #FA8072;" text="Dashboard">
+               <font>
+                  <Font name="Rockwell" size="17.0" />
+               </font>
+            </Button>
+            <Line endX="60.96498107910156" endY="-12.733756065368652" startX="-112.72793579101562" startY="-12.733986854553223" stroke="WHITE" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="anchortab" prefHeight="400.0" prefWidth="444.0" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="444.0" style="-fx-background-color: #FEF9E7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StaffdataController">
+   <children>
+      <TableView fx:id="tableview" layoutX="9.0" layoutY="38.0" prefHeight="349.0" prefWidth="426.0">
+        <columns>
+          <TableColumn fx:id="eid" prefWidth="62.40002727508545" text="ID" />
+          <TableColumn fx:id="name" prefWidth="99.20001220703125" text="NAME" />
+            <TableColumn fx:id="age" prefWidth="54.4000244140625" text="AGE" />
+            <TableColumn fx:id="salary" prefWidth="103.99992370605469" text="SALARY" />
+            <TableColumn fx:id="post" prefWidth="107.20001220703125" text="POST" />
+            <TableColumn fx:id="contact" minWidth="0.0" prefWidth="136.79998779296875" text="CONTACT" />
+        </columns>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color opacity="0.2887537479400635" />
+               </color>
+            </DropShadow>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TableView>
+      <Text layoutX="166.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Staff Database">
+         <font>
+            <Font name="Bell MT" size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

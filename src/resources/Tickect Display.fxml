@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F0DFC4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ShowticketController">
+   <children>
+      <AnchorPane layoutX="51.0" layoutY="68.0" prefHeight="222.0" prefWidth="500.0" style="-fx-background-color: FCF5EA;" />
+      <Text layoutX="61.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME:">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="65.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="209.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE:">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADULT:">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="206.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHILD:">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="58.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL AMOUNT:">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="dashboard_field" layoutX="29.0" layoutY="326.0" mnemonicParsing="false" onAction="#go_to_dashboard" prefHeight="33.0" prefWidth="122.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #46C7C7;" text="DASHBOARD" textFill="#1a1b1a">
+         <font>
+            <Font name="Bell MT Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lname" layoutX="141.0" layoutY="88.0" prefHeight="18.0" prefWidth="374.0" textFill="#691010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lid" layoutX="108.0" layoutY="147.0" prefHeight="22.0" prefWidth="86.0" textFill="#691010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ldate" layoutX="285.0" layoutY="146.0" prefHeight="22.0" prefWidth="114.0" textFill="#691010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lticket" layoutX="242.0" layoutY="284.0" prefHeight="22.0" prefWidth="58.0" textFill="#691010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="ladult" layoutX="135.0" layoutY="196.0" prefHeight="22.0" prefWidth="58.0" textFill="#691010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lchild" layoutX="285.0" layoutY="199.0" prefHeight="22.0" prefWidth="64.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lamount" layoutX="242.0" layoutY="257.0" prefHeight="22.0" prefWidth="86.0" textFill="#691010">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="conform_field" layoutX="438.0" layoutY="326.0" mnemonicParsing="false" onAction="#go_to_success" prefHeight="33.0" prefWidth="122.0" style="-fx-background-color: #B0E0E6; -fx-border-color: #46C7C7;" text="CONFIRM" textFill="#1a1b1a">
+         <font>
+            <Font name="Bell MT Italic" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="242.0" fitWidth="547.0" layoutX="27.0" layoutY="60.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/WPM%20project/clipart1994237.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="103.0" layoutX="452.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/WPM%20project/coollogo_com-21588422.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="251.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TICKET">
+         <font>
+            <Font name="Bell MT" size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="back" layoutX="32.0" layoutY="17.0" mnemonicParsing="false" onAction="#go_to_booking" prefHeight="26.0" prefWidth="52.0" style="-fx-background-color: #77BFC7;" />
+      <ImageView fitHeight="43.0" fitWidth="42.0" layoutX="35.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/pngwing.com.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

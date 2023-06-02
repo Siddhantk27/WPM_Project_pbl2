@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E3E4FA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Upkeepsuccess">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="#30c936" layoutX="60.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAVED SUCCESSFULLY!!" wrappingWidth="478.07183837890625">
+         <font>
+            <Font name="Bell MT" size="39.0" />
+         </font>
+      </Text>
+      <Button fx:id="dashboard_field" layoutX="232.0" layoutY="308.0" mnemonicParsing="false" onAction="#go_to_dashboard" prefHeight="34.0" prefWidth="135.0" style="-fx-background-color: #FFFFC2;" text="DASHBOARD">
+         <font>
+            <Font name="Bell MT" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
